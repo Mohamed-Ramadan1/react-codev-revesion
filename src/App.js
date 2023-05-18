@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from "./Components/Revision1-20/Greet"
-function App() {
-  const name = "mohamed Ramadan";
+import Greet from "./Components/Revision1-20/Greet";
+import Wellcom from './Components/Revision1-20/Wellcom';
+function App() { 
   return (
     <div className="App">
-      <Greet name={name } />
-
+      {/* <Greet name={name} content={ content} /> */}
+      <Wellcom/>
     
     </div>
   );
