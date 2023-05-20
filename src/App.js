@@ -10,7 +10,6 @@ import BindEvent from './Components/Revision1-20/BindEventHandler';
 import Parent from './Components/Revision1-20/ParentComponent';
 import UserGreeting from './Components/Revision1-20/UserGreating';
 import NameList from './Components/Revision1-20/NameList.';
-import FormHandling from './FormHandleing';
 function App() {
 
   return (
