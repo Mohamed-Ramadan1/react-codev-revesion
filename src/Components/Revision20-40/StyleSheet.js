@@ -1,9 +1,11 @@
 import React from 'react';
-import "./styelSheet.css"
+import "./styelSheet.css";
+
+import styles from './styles.module.css'
 
 const StyleSheet = () => {
     return (
-        <div className='color font-xl'>Hello</div>
+        <div className={styles.error}>Hello</div>
 
     )
 }
