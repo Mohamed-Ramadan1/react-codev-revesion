@@ -10,12 +10,12 @@ import BindEvent from './Components/Revision1-20/BindEventHandler';
 import Parent from './Components/Revision1-20/ParentComponent';
 import UserGreeting from './Components/Revision1-20/UserGreating';
 import NameList from './Components/Revision1-20/NameList.';
-import FormClassHandling from './Components/Revision20-40/FormClassHandling';
+import StyleSheet from './Components/Revision20-40/StyleSheet';
 function App() {
 
   return (
     <div className="App">
-      <FormClassHandling/>
+      <StyleSheet/>
     </div>
   );
 }
