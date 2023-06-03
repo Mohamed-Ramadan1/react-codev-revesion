@@ -7,7 +7,7 @@ class PureComp extends PureComponent{
     render() {
         return (
             <div>
-                Your Compoent
+                Pure Compoent
             </div>
         )
 
