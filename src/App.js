@@ -1,10 +1,11 @@
 import './App.css';
-import Form from './Components/Revision20-40/Form';
+import PureComp from './Components/Revision20-40/PureComp';
 
 function App() {
 
   return (
     <div className="App">
+      <PureComp/>
 
     </div>
   );
