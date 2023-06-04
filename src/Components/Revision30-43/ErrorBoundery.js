@@ -13,6 +13,11 @@ class ErrorBoundery extends Component {
             hasError: true,
         }
     }
+
+    componentDidCatch(error, info) {
+        console.log(error)
+        console.log(info)
+    }
     render() {
         if (this.state.hasError) {
             return <h1>Error HAPPEDN</h1>

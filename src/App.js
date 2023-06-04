@@ -1,23 +1,12 @@
 import './App.css';
-import ErrorBoundery from './Components/Revision30-43/ErrorBoundery';
-import Heros from './Components/Revision30-43/Hero';
+import ClickCounter from './Components/Revision30-43/ClickCounter';
 
 function App() {
 
   return (
     <div className="App">
-      <ErrorBoundery>
-        <Heros heroName={"joker"} />
-      </ErrorBoundery>
+      <ClickCounter/>
 
-
-      <ErrorBoundery>
-        <Heros heroName={"Dragon"} />
-      </ErrorBoundery>
-
-      <ErrorBoundery>
-        <Heros heroName={"Hourse"}/>
-      </ErrorBoundery>
 
     </div>
   );
