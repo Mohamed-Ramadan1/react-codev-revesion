@@ -4,17 +4,14 @@ import { UserConsumer } from './userContext'
 
 class ComponentF extends Component {
 render() {
-        return (
-      
+        return ( 
                 <UserConsumer>
                     {
                         userName => {
                             return <div>Helo {userName}</div>
                         }
                     }
-
                 </UserConsumer>
-         
         )
     }
 }
