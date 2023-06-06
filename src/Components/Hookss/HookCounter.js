@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 const HookCounter = () => {
-    const [counter, setCounter] = React.useState(0)
+    const [counter, setCounter] = useState(0)
     
 
 

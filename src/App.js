@@ -1,14 +1,11 @@
 import './App.css';
-import Counter from './Components/Hookss/Counter';
-import HookCounter from './Components/Hookss/HookCounter';
-
+import HookCounterThree from './Components/Hookss/HookCounterTow';
 
 function App() {
 
   return (
     <div className="App">
-  
-    <HookCounter/>
+  <HookCounterThree/>
     </div>
   );
 }
