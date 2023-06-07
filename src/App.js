@@ -1,10 +1,11 @@
 import './App.css';
-import HookCounterFour from './Components/Hookss/HookCounterFour';
+import HookArray from './Components/Hookss/HookArray';
 
 function App() {
 
   return (
     <div className="App">
+      <HookArray/>
     </div>
   );
 }
