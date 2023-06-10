@@ -1,11 +1,11 @@
 import './App.css';
-import HookArray from './Components/Hookss/HookArray';
+import ComponentC from './Components/ContextHttpRev/ComponentC';
 
 function App() {
 
   return (
     <div className="App">
-      <HookArray/>
+      <ComponentC/>
     </div>
   );
 }
