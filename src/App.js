@@ -1,11 +1,11 @@
 import './App.css';
-import ComponentC from './Components/ContextHttpRev/ComponentC';
+import CounterOne from './Components/Hooks61-70/CounterOne';
 
 function App() {
 
   return (
     <div className="App">
-      <ComponentC/>
+      <CounterOne/>
     </div>
   );
 }
