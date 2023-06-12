@@ -13,6 +13,7 @@ function DataFectchingOne() {
                 setLoading(false)
                 //console.log(res.data)
             })
+            
             .catch(error => {
                 setError('Somthing wrong check the api end point')
                 setComments({})
